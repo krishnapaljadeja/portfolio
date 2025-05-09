@@ -1,0 +1,22 @@
+{
+  "name": "Fraud Detection System",
+  "url": "#",
+  "github": "https://github.com/Riyaa3050/Nirma-Hackathon",
+  "description": "Real-time fraud detection system using PERN stack and Machine Learning. Analyzes transaction data to predict fraud likelihood based on transaction patterns, amounts, and user behavior.",
+  "thumbnail": "/projects/fraud-detection.png",
+  "status": "Completed",
+  "techStack": [
+    "PostgreSQL",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "Machine Learning"
+  ],
+  "features": [
+    "Real-time transaction analysis",
+    "Machine learning model integration",
+    "Pattern-based fraud detection",
+    "User behavior analysis",
+    "Automated flagging system"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Live Reporting System",
+  "url": "#",
+  "github": "https://github.com/",
+  "description": "University web app for evaluating SGPs, internship reports, and exam results. Features include company details management, Excel sheet integration, automated NOC generation, and data validation.",
+  "thumbnail": "/projects/live-reporting.png",
+  "status": "Live",
+  "techStack": ["PostgreSQL", "Express.js", "React.js", "Node.js"],
+  "features": [
+    "Models and Routes for company details management",
+    "Excel Sheet Integration with bulk data insertion",
+    "Automated NOC letter generation",
+    "Data validation for database integrity"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Digital World",
+  "url": "#",
+  "github": "https://github.com/PrinceDiyora/Software-Group-Project",
+  "description": "Digital World is a full-featured e-commerce website designed for browsing and purchasing electronics and gadgets. It supports a smooth user experience with product listing, shopping cart, secure checkout, and admin controls.",
+  "thumbnail": "/projects/digital-world-ecommerce.png",
+  "status": "Live",
+  "icon": "mdi:cart-outline",
+  "techStack": ["HTML5", "CSS3", "JavaScript", "MongoDB"],
+  "features": [
+    "Responsive product catalog with filtering and search",
+    "Shopping cart and order management",
+    "User registration and login system",
+    "Admin panel for managing products and orders",
+    "Secure checkout with real-time inventory updates"
+  ]
+}
