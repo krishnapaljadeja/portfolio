@@ -13,17 +13,30 @@
           {{ project.name }}
         </h3>
       </div>
-      <template v-if="project.github">
-        <a
-          :href="project.github"
-          target="_blank"
-          rel="noopener"
-          class="ml-2 text-gray-500 hover:text-primary-500 transition-colors"
-          @click.stop
-        >
-          <Icon name="simple-icons:github" class="w-6 h-6" />
-        </a>
-      </template>
+      <div class="flex items-center gap-2">
+        <template v-if="project.url && project.url !== '#'">
+          <a
+            :href="project.url"
+            target="_blank"
+            rel="noopener"
+            class="text-gray-500 hover:text-primary-500 transition-colors"
+            @click.stop
+          >
+            <Icon name="mdi:web" class="w-6 h-6" />
+          </a>
+        </template>
+        <template v-if="project.github">
+          <a
+            :href="project.github"
+            target="_blank"
+            rel="noopener"
+            class="text-gray-500 hover:text-primary-500 transition-colors"
+            @click.stop
+          >
+            <Icon name="simple-icons:github" class="w-6 h-6" />
+          </a>
+        </template>
+      </div>
     </div>
     <p class="text-gray-500 dark:text-gray-400 text-sm mb-2">
       {{ project.description }}

@@ -1,6 +1,6 @@
 {
   "name": "QuiziFY",
-  "url": "#",
+  "url": "https://quizify.krishnapaljadeja.com/",
   "github": "https://github.com/krishnapaljadeja/SGP-2",
   "description": "Secure Quiz Web Application with JWT authentication, role-based access, real-time timers, and automated scoring. Features AI-driven quiz generation and comprehensive result tracking.",
   "thumbnail": "/projects/quizify.png",
