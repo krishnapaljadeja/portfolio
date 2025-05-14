@@ -37,7 +37,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "https://krishnapaljadeja.com/favicon.ico",
+          content: "https://krishnapaljadeja.com/krishnapal_jadeja.jpg",
         },
         { property: "og:url", content: "https://krishnapaljadeja.com" },
         { property: "og:type", content: "website" },
