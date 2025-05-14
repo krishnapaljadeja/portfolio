@@ -1,5 +1,6 @@
 <template>
   <main class="min-h-screen">
+    <Analytics />
     <div class="space-y-24">
       <HomeIntro />
       <HomeSocialLinks />
@@ -28,3 +29,7 @@
     </div>
   </main>
 </template>
+
+<script setup>
+import { Analytics } from "@vercel/analytics/nuxt";
+</script>
