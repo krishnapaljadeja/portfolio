@@ -23,6 +23,26 @@ export default defineNuxtConfig({
       bodyAttrs: {
         class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
       },
+      meta: [
+        {
+          name: "description",
+          content:
+            "Portfolio of Krishnapal Jadeja - Developer, Designer, and Creator.",
+        },
+        { property: "og:title", content: "Krishnapal Jadeja Portfolio" },
+        {
+          property: "og:description",
+          content:
+            "Portfolio of Krishnapal Jadeja - Developer, Designer, and Creator.",
+        },
+        {
+          property: "og:image",
+          content: "https://krishnapaljadeja.com/favicon.ico",
+        },
+        { property: "og:url", content: "https://krishnapaljadeja.com" },
+        { property: "og:type", content: "website" },
+      ],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
   },
   content: {
