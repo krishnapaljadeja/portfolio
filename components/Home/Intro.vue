@@ -59,6 +59,7 @@
           <div class="text-gray-400 text-sm">2023 - 2027</div>
         </div>
       </a>
+      
     </section>
 
     <!-- Skills & Technologies Section -->

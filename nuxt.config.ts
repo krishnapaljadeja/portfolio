@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxthq/studio",
     "@vueuse/nuxt",
+    "@vite-pwa/nuxt",
   ],
   ui: {
     icons: ["heroicons", "lucide", "simple-icons", "mdi"],
@@ -54,6 +55,64 @@ export default defineNuxtConfig({
     display: "swap",
     families: {
       Inter: [400, 500, 600, 700, 800, 900],
+    },
+  },
+  pwa: {
+    registerType: "autoUpdate",
+    manifest: {
+      name: "Krishnapal Jadeja Portfolio",
+      short_name: "Portfolio",
+      description:
+        "Portfolio of Krishnapal Jadeja - Developer, Designer, and Creator",
+      theme_color: "#14b8a6",
+      background_color: "#ffffff",
+      display: "standalone",
+      icons: [
+        {
+          src: "/icon-192x192.png",
+          sizes: "192x192",
+          type: "image/png",
+        },
+        {
+          src: "/icon-512x512.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+      ],
+    },
+    workbox: {
+      navigateFallback: "/",
+      globPatterns: ["**/*.{js,css,html,png,svg,ico}"],
+      runtimeCaching: [
+        {
+          urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+          handler: "CacheFirst",
+          options: {
+            cacheName: "google-fonts-cache",
+            expiration: {
+              maxEntries: 10,
+              maxAgeSeconds: 60 * 60 * 24 * 365, // 1 year
+            },
+            cacheableResponse: {
+              statuses: [0, 200],
+            },
+          },
+        },
+        {
+          urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
+          handler: "CacheFirst",
+          options: {
+            cacheName: "gstatic-fonts-cache",
+            expiration: {
+              maxEntries: 10,
+              maxAgeSeconds: 60 * 60 * 24 * 365, // 1 year
+            },
+            cacheableResponse: {
+              statuses: [0, 200],
+            },
+          },
+        },
+      ],
     },
   },
 });

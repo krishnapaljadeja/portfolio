@@ -7,6 +7,7 @@
   </UContainer>
   <div class="h-32"></div>
   <AppFooter />
+  <AppBackToTop />
 </template>
 
 <style>
