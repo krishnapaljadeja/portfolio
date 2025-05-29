@@ -6,6 +6,7 @@
         v-for="(project, id) in projects"
         :key="id"
         :project="project"
+        :is-pre-expanded="isProjectExpanded(project.name)"
       />
     </div>
   </main>
@@ -19,7 +20,13 @@ useSeoMeta({
   description,
 });
 
+const route = useRoute();
 const { data: projects } = await useAsyncData("projects-all", () =>
   queryContent("/projects").find()
 );
+
+function isProjectExpanded(projectName) {
+  const projectId = projectName.toLowerCase().replace(/\s+/g, "-");
+  return route.query.expand === projectId;
+}
 </script>

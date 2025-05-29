@@ -4,14 +4,13 @@
       FEATURED PROJECTS
     </h2>
     <div class="space-y-4">
-      <NuxtLink
+      <div
         v-for="(project, id) in projects"
         :key="id"
-        to="/projects"
-        class="block group"
+        @click.stop="navigateToProject(project.name)"
       >
         <AppProjectCard :project="project" />
-      </NuxtLink>
+      </div>
     </div>
     <div class="flex items-center justify-center mt-6 text-sm">
       <UButton
@@ -28,4 +27,14 @@
 const { data: projects } = await useAsyncData("projects-home", () =>
   queryContent("/projects").limit(3).find()
 );
+
+const router = useRouter();
+
+function navigateToProject(projectName: string) {
+  const projectId = projectName.toLowerCase().replace(/\s+/g, "-");
+  router.push({
+    path: "/projects",
+    query: { expand: projectId },
+  });
+}
 </script>

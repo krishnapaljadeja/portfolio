@@ -2,14 +2,16 @@
   "name": "Live Reporting System",
   "url": "#",
   "github": "https://github.com/",
-  "description": "University web app for evaluating SGPs, internship reports, and exam results. Features include company details management, Excel sheet integration, automated NOC generation, and data validation.",
+  "description": "A university platform for managing SGPs, internships, exams, and results. Features include Excel data import, automated NOC generation, project allocation, and approval workflows. Optimized APIs ensure efficient data handling and streamlined academic processes.",
   "thumbnail": "/projects/live-reporting.png",
   "status": "Live",
+  "icon": "mdi:school-outline",
   "techStack": ["PostgreSQL", "Express.js", "React.js", "Node.js"],
   "features": [
-    "Models and Routes for company details management",
-    "Excel Sheet Integration with bulk data insertion",
-    "Automated NOC letter generation",
-    "Data validation for database integrity"
-  ]
+  "RESTful APIs for managing SGPs, internships, exams, and results",
+  "Excel-based bulk data import using batching and optimized inserts",
+  "Automated NOC generation using real-time database queries",
+  "Dynamic project ID generation with guide and team mapping logic",
+  "Approval workflow with conditional data persistence and reviewer comments"
+]
 }

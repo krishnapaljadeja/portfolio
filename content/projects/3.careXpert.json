@@ -1,0 +1,23 @@
+{
+  "name": "careXpert",
+  "url": "#",
+  "github": "https://github.com/vasu-CE/careXpert_backend/blob/main/README.md",
+  "description": "CareXpert is a full-stack telehealth platform where patients can check symptoms using AI, book doctor appointments, and chat in real-time. Doctors manage appointments, view histories, and issue prescriptions. It features real-time chat and an ML-powered symptom checker for a seamless healthcare experience.",
+  "thumbnail": "/projects/careXpert.png",
+  "status": "Live",
+  "icon": "mdi:medical-bag",
+  "techStack": [
+    "PostgreSQL",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "Socket.IO"
+  ],
+ "features": [
+  "AI-powered symptom checker with urgency level suggestions",
+  "Appointment booking with doctor filtering by specialty and availability",
+  "Real-time patient-doctor chat using Socket.io",
+  "Doctor dashboard for managing appointments and prescriptions",
+  "Secure JWT-based authentication for patients and doctors"
+]
+}

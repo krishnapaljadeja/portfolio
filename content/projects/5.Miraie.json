@@ -1,0 +1,17 @@
+{
+  "name": "Miraie+",
+  "url": "#",
+  "github": "https://github.com/krishnapaljadeja/MirAIe/blob/main/README.md",
+  "description": "A TypeScript-based Progressive Web App (PWA) for controlling Panasonic MirAIe-enabled devices directly from your desktop. Designed for speed and simplicity, it allows users to manage AC settings with a clean, responsive interface.",
+  "thumbnail": "/projects/Miarie.png",
+  "status": "Live",
+  "icon": "mdi:air-conditioner",
+  "techStack": ["TypeScript", "React.js", "Node.js", "Express.js"],
+  "features": [
+    "Power On/Off control for Panasonic MirAIe devices",
+    "Temperature setting and AC mode switching (Auto, Dry, Fan)",
+    "Fan speed control and vertical swing adjustment",
+    "AC display toggle and activation of Powerful Mode",
+    "i7 conversion support for enhanced device management"
+  ]
+}

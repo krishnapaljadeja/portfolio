@@ -5,6 +5,7 @@
   "description": "Real-time fraud detection system using PERN stack and Machine Learning. Analyzes transaction data to predict fraud likelihood based on transaction patterns, amounts, and user behavior.",
   "thumbnail": "/projects/fraud-detection.png",
   "status": "Completed",
+  "icon": "mdi:shield-check-outline",
   "techStack": [
     "PostgreSQL",
     "Express.js",
