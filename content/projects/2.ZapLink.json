@@ -1,6 +1,8 @@
+
+
 {
   "name": "ZapLink",
-  "url": "#",
+  "url": "https://zaplink.krishnapaljadeja.com/",
   "github": "https://github.com/krishnapaljadeja/ZapLink_backend/blob/main/README.md",
   "description": "ZapLink is a secure file-sharing platform that lets users upload files and instantly create customizable QR codes and short links. No login or app is needed, with optional password protection and expiration controls. Share content easily while keeping full control over access and security.",
   "thumbnail": "/projects/careXpert.png",
