@@ -1,0 +1,24 @@
+{
+  "name": "CodePie",
+  "url": "#",
+  "github": "https://github.com/jalaym825/CodePie-Frontend",
+  "description": "CodePie is a secure coding platform designed for conducting Coding contests with real-time evaluation and strong anti-cheating measures. Built for academic testing, it supports scheduling, isolated code execution, and large-scale participation for practical exams.",
+  "thumbnail": "/projects/codepie.png",
+  "status": "Completed",
+  "icon": "mdi:code-tags",
+  "techStack": [
+    "PostgreSQL",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "Judge0",
+    "Docker"
+  ],
+  "features": [
+    "Create and schedule secure DSA contests",
+    "Real-time student code evaluation using Judge0",
+    "Anti-cheating via session monitoring and environment isolation",
+    "Scalable backend tested with 160+ concurrent students",
+    "Role-based access for faculty and students"
+  ]
+}
