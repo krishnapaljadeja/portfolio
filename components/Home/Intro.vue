@@ -22,7 +22,10 @@
         passion for AI.
       </p>
       <p class="text-gray-900 dark:text-gray-400">
-        I secured 1st Runner-up at the Odoo × IIT Gandhinagar National Hackathon and ranked among the Top 7 finalists at the Odoo × NMIT Bengaluru Hackathon, demonstrating the ability to deliver production-ready solutions in competitive environments.
+        I secured 1st Runner-up at the Odoo × IIT Gandhinagar National Hackathon
+        and ranked among the Top 7 finalists at the Odoo × NMIT Bengaluru
+        Hackathon, demonstrating the ability to deliver production-ready
+        solutions in competitive environments.
       </p>
     </div>
 
@@ -56,7 +59,6 @@
           <div class="text-gray-400 text-sm">2023 - 2027</div>
         </div>
       </a>
-      
     </section>
 
     <!-- Skills & Technologies Section -->
