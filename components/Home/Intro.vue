@@ -22,10 +22,7 @@
         passion for AI.
       </p>
       <p class="text-gray-900 dark:text-gray-400">
-        I enjoy crafting clean, scalable solutions and bringing ideas to life
-        through code. This is my corner of the web where I share the projects
-        I'm building, the tools I'm exploring, and the experiments that keep me
-        curious.
+        I secured 1st Runner-up at the Odoo × IIT Gandhinagar National Hackathon and ranked among the Top 7 finalists at the Odoo × NMIT Bengaluru Hackathon, demonstrating the ability to deliver production-ready solutions in competitive environments.
       </p>
     </div>
 
@@ -95,6 +92,11 @@
             <span
               class="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded text-sm transition-transform duration-300 hover:scale-110 cursor-pointer"
             >
+              <Icon name="simple-icons:c" /> C
+            </span>
+            <span
+              class="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded text-sm transition-transform duration-300 hover:scale-110 cursor-pointer"
+            >
               <Icon name="simple-icons:cplusplus" /> C++
             </span>
             <span
@@ -126,6 +128,16 @@
             >
               <Icon name="simple-icons:react" /> React.js
             </span>
+            <span
+              class="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded text-sm transition-transform duration-300 hover:scale-110 cursor-pointer"
+            >
+              <Icon name="simple-icons:html5" /> HTML5
+            </span>
+            <span
+              class="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded text-sm transition-transform duration-300 hover:scale-110 cursor-pointer"
+            >
+              <Icon name="simple-icons:css3" /> CSS3
+            </span>
           </div>
         </div>
         <div>
@@ -153,7 +165,32 @@
             <span
               class="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded text-sm transition-transform duration-300 hover:scale-110 cursor-pointer"
             >
+              <Icon name="simple-icons:prisma" /> Prisma
+            </span>
+            <span
+              class="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded text-sm transition-transform duration-300 hover:scale-110 cursor-pointer"
+            >
+              <Icon name="simple-icons:sequelize" /> Sequelize
+            </span>
+            <span
+              class="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded text-sm transition-transform duration-300 hover:scale-110 cursor-pointer"
+            >
               <Icon name="simple-icons:docker" /> Docker
+            </span>
+            <span
+              class="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded text-sm transition-transform duration-300 hover:scale-110 cursor-pointer"
+            >
+              <Icon name="simple-icons:git" /> Git
+            </span>
+            <span
+              class="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded text-sm transition-transform duration-300 hover:scale-110 cursor-pointer"
+            >
+              <Icon name="simple-icons:github" /> GitHub
+            </span>
+            <span
+              class="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded text-sm transition-transform duration-300 hover:scale-110 cursor-pointer"
+            >
+              <Icon name="simple-icons:postman" /> Postman
             </span>
           </div>
         </div>

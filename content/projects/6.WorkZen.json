@@ -1,0 +1,28 @@
+{
+  "name": "WorkZen HRMS",
+  "url": "#",
+  "github": "https://github.com/krishnapaljadeja/ODOOxAmalthea_CodeCatalyst.git",
+  "description": "WorkZen is a full-stack Human Resource Management System (HRMS) designed to automate employee management, attendance tracking, leave workflows, payroll processing, and payslip generation. It provides role-based access and a contract-driven architecture for reliable frontend–backend integration.",
+  "thumbnail": "/projects/workzen.png",
+  "status": "Completed",
+  "icon": "mdi:account-group-outline",
+  "techStack": [
+    "PostgreSQL",
+    "Prisma ORM",
+    "Express.js",
+    "Node.js",
+    "React.js",
+    "JWT",
+    "node-cron"
+  ],
+  "features": [
+    "Role-based access for Admin, HR, Payroll, and Employees",
+    "Employee profile and department management",
+    "Attendance tracking with daily logs",
+    "Leave application and approval workflow",
+    "Automated payroll generation based on attendance and leaves",
+    "Downloadable PDF payslips with salary breakdown",
+    "Dashboard with real-time HR analytics",
+    "Contract-driven API integration using frontend–backend spec"
+  ]
+}

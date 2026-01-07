@@ -1,0 +1,30 @@
+{
+  "name": "CodeStreak",
+  "url": "#",
+  "github": "https://github.com/krishnapaljadeja/CodeDuel_backend.git",
+  "description": "CodeStreak is a full-stack habit-building platform that helps developers maintain daily coding consistency through rule-based challenges with friends. It automatically tracks LeetCode activity via GraphQL, evaluates daily goals, maintains streaks, applies penalties on failure, and provides analytics to encourage long-term discipline and growth.",
+  "thumbnail": "/projects/codestreak.png",
+  "status": "In Progress",
+  "icon": "mdi:fire",
+  "techStack": [
+    "React.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Prisma ORM",
+    "JWT Authentication",
+    "node-cron",
+    "LeetCode GraphQL API"
+  ],
+  "features": [
+    "Rule-based daily coding challenges with customizable goals",
+    "Automatic LeetCode submission tracking via GraphQL",
+    "Daily streak tracking and consistency metrics",
+    "Friend and group challenges with leaderboards",
+    "Automated daily evaluation using cron jobs",
+    "Virtual penalty system for accountability",
+    "Analytics dashboard with progress and difficulty breakdown",
+    "Scalable backend architecture ready for AI coaching features"
+  ]
+}
