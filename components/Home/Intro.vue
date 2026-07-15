@@ -7,8 +7,10 @@
       loop
       playsinline
       preload="metadata"
+      poster="/banner.jpg"
       aria-label="Portfolio banner animation"
     >
+      <source src="/banner.mp4" type="video/mp4" />
       <source src="/banner.webm" type="video/webm" />
     </video>
 
