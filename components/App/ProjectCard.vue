@@ -170,11 +170,22 @@ function iconForTech(tech) {
     "Socket.IO": "simple-icons:socketdotio",
     Docker: "simple-icons:docker",
     Python: "simple-icons:python",
+    TypeScript: "simple-icons:typescript",
+    JavaScript: "simple-icons:javascript",
+    Go: "simple-icons:go",
     Java: "simple-icons:java",
     "C++": "simple-icons:cplusplus",
     C: "simple-icons:c",
     HTML5: "simple-icons:html5",
     CSS3: "simple-icons:css3",
+    "Tailwind CSS": "simple-icons:tailwindcss",
+    Prisma: "simple-icons:prisma",
+    "Prisma ORM": "simple-icons:prisma",
+    "Gemini API": "simple-icons:googlegemini",
+    "Redux Toolkit": "simple-icons:redux",
+    "Machine Learning": "mdi:brain",
+    Cloudinary: "simple-icons:cloudinary",
+    Judge0: "mdi:gavel",
   };
   return map[tech] || "mdi:code-tags";
 }

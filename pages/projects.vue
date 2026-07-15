@@ -22,7 +22,7 @@ useSeoMeta({
 
 const route = useRoute();
 const { data: projects } = await useAsyncData("projects-all", () =>
-  queryContent("/projects").find()
+  queryContent("/projects").sort({ order: 1 }).find()
 );
 
 function isProjectExpanded(projectName) {

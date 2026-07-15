@@ -1,27 +1,35 @@
 <template>
   <header
-    class="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800"
+    class="fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-gray-50/85 backdrop-blur-lg transition-colors duration-300 dark:border-gray-800 dark:bg-black/85"
   >
     <UContainer>
-      <div class="flex items-center justify-between h-16">
+      <div class="flex h-16 items-center justify-between gap-4">
         <NuxtLink
           to="/"
-          class="text-lg font-bold text-gray-900 dark:text-white"
+          class="shrink-0 text-lg font-bold text-gray-900 transition-colors duration-300 dark:text-white"
         >
-          Jadeja Krishnapal Singh
+          <span class="sm:hidden">KJ</span>
+          <span class="hidden sm:inline">Jadeja Krishnapal Singh</span>
         </NuxtLink>
-        <nav class="flex items-center gap-6">
+        <nav class="flex items-center gap-3 sm:gap-6">
           <NuxtLink
             to="/"
-            class="text-sm font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+            class="text-sm font-medium text-gray-600 transition-colors duration-300 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
           >
             Home
           </NuxtLink>
           <NuxtLink
             to="/projects"
-            class="text-sm font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+            class="text-sm font-medium text-gray-600 transition-colors duration-300 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
           >
             Projects
+          </NuxtLink>
+          <NuxtLink
+            to="/krishnapal-jadeja.pdf"
+            target="_blank"
+            class="hidden text-sm font-medium text-gray-600 transition-colors duration-300 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white sm:inline"
+          >
+            Resume
           </NuxtLink>
           <AppThemeToggle />
         </nav>
@@ -29,18 +37,3 @@
     </UContainer>
   </header>
 </template>
-
-<script setup>
-import { useFixedHeader } from "vue-use-fixed-header";
-const headerRef = ref(null);
-const { styles } = useFixedHeader(headerRef);
-
-const items = [
-  { name: "Home", path: "/", icon: "solar:home-smile-outline" },
-  {
-    name: "Projects",
-    path: "/projects",
-    icon: "solar:folder-with-files-outline",
-  },
-];
-</script>

@@ -5,8 +5,8 @@
     </h2>
     <div class="space-y-4">
       <div
-        v-for="(project, id) in projects"
-        :key="id"
+        v-for="project in featuredProjects"
+        :key="project._path"
         @click.stop="navigateToProject(project.name)"
       >
         <AppProjectCard :project="project" />
@@ -25,7 +25,13 @@
 
 <script lang="ts" setup>
 const { data: projects } = await useAsyncData("projects-home", () =>
-  queryContent("/projects").limit(3).find()
+  queryContent("/projects").find()
+);
+
+const featuredProjects = computed(() =>
+  [...(projects.value || [])]
+    .sort((a, b) => Number(a.order || 99) - Number(b.order || 99))
+    .slice(0, 3)
 );
 
 const router = useRouter();

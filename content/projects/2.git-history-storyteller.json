@@ -1,0 +1,27 @@
+{
+  "order": 2,
+  "name": "Git History Storyteller",
+  "url": "https://git-history-storyteller.vercel.app",
+  "github": "https://github.com/krishnapaljadeja/Oceanlab_X_Charusat_frontend",
+  "description": "An AI-powered GitHub repository intelligence tool that turns raw commit history into narratives, contributor profiles, and onboarding guides using the Gemini API. A RAG pipeline backed by pgvector enables semantic Q&A over a repository's full history through a Python gitingest bridge, with a circuit-breaker-backed LLM provider system that falls back between Gemini and local Ollama models.",
+  "thumbnail": "/projects/git-history-storyteller.png",
+  "status": "Live",
+  "icon": "mdi:source-branch",
+  "techStack": [
+    "Node.js",
+    "Express.js",
+    "TypeScript",
+    "React.js",
+    "PostgreSQL",
+    "Prisma",
+    "Gemini API",
+    "Python"
+  ],
+  "features": [
+    "Turns raw commit history into repository narratives and onboarding guides",
+    "Builds contributor profiles from GitHub activity",
+    "Supports semantic Q&A over repository history with a pgvector-backed RAG pipeline",
+    "Uses a Python gitingest bridge for repository ingestion",
+    "Falls back between Gemini and local Ollama providers through a circuit-breaker-backed LLM layer"
+  ]
+}

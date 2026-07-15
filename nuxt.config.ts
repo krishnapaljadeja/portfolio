@@ -14,6 +14,10 @@ export default defineNuxtConfig({
   ui: {
     icons: ["heroicons", "lucide", "simple-icons", "mdi"],
   },
+  colorMode: {
+    preference: "dark",
+    fallback: "dark",
+  },
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
@@ -22,7 +26,8 @@ export default defineNuxtConfig({
         class: "h-full",
       },
       bodyAttrs: {
-        class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
+        class:
+          "antialiased bg-gray-50 dark:bg-black min-h-screen transition-colors duration-300",
       },
       meta: [
         {

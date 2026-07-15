@@ -1,0 +1,28 @@
+{
+  "order": 6,
+  "name": "Asset Flow",
+  "url": "#",
+  "github": "https://github.com/krishnapaljadeja/Odoo_GN_26",
+  "description": "AssetFlow is an ERP-style asset and resource management platform covering the full lifecycle - registration, allocation, transfers, and maintenance - with dashboard KPIs, resource booking with conflict validation, a Kanban-based maintenance workflow, structured audit cycles, reporting, notifications, activity logs, and role-based access across Admin, Asset Manager, Department Head, and Employee roles.",
+  "thumbnail": "/projects/asset-flow.png",
+  "status": "Completed",
+  "icon": "mdi:database-cog-outline",
+  "techStack": [
+    "PostgreSQL",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "Prisma",
+    "Redux Toolkit",
+    "Tailwind CSS"
+  ],
+  "features": [
+    "Dashboard KPIs for asset status, active bookings, pending transfers, and overdue returns",
+    "Asset lifecycle management from registration through allocation, maintenance, audits, and disposal",
+    "Double-allocation blocking and transfer-request workflows",
+    "Calendar-based resource booking with automatic overlap validation",
+    "Maintenance Kanban board with automatic asset status updates",
+    "Structured audit cycles with discrepancy reports",
+    "Granular RBAC for Admin, Asset Manager, Department Head, and Employee roles"
+  ]
+}

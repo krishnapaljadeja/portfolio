@@ -1,14 +1,25 @@
 <template>
   <NuxtLoadingIndicator color="#14b8a6" />
-  <AppNavbar />
-  <div class="h-32"></div>
-  <UContainer>
-    <NuxtPage />
-  </UContainer>
-  <div class="h-32"></div>
-  <AppFooter />
-  <AppBackToTop />
+  <AppBackgroundPixelStars />
+  <div class="relative z-10">
+    <AppNavbar />
+    <div class="h-32"></div>
+    <UContainer>
+      <NuxtPage />
+    </UContainer>
+    <div class="h-32"></div>
+    <AppFooter />
+    <AppBackToTop />
+  </div>
 </template>
+
+<script setup>
+const colorMode = useColorMode();
+
+if (!colorMode.preference || colorMode.preference === "system") {
+  colorMode.preference = "dark";
+}
+</script>
 
 <style>
 .page-enter-active,
