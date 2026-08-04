@@ -38,7 +38,7 @@
           Full Stack Developer.
         </p>
         <p class="text-sm font-semibold text-gray-500 dark:text-gray-400 sm:text-base">
-          Anand, Gujarat, IND
+          Bangalore, India
         </p>
       </div>
     </div>
